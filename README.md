@@ -39,4 +39,4 @@ npm run dev
 npm run build
 ```
 
-El build genera `dist/_worker.js` para Cloudflare Pages/Sites.
+El build genera `dist/server/index.js` y `dist/_worker.js` para Sites.
