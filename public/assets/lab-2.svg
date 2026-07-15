@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Lab sample two">
-  <rect width="800" height="520" fill="#edf2ff"/>
-  <path d="M80 420L280 120L420 310L540 190L730 420Z" fill="#4866c9"/>
-  <circle cx="612" cy="126" r="70" fill="#f6c65b"/>
-  <rect x="86" y="68" width="220" height="48" rx="8" fill="#ffffff"/>
-  <rect x="86" y="138" width="142" height="28" rx="6" fill="#b7c4f2"/>
-</svg>

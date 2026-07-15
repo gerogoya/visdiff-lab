@@ -2,10 +2,10 @@
 
 Sitio de prueba simple para validar capturas y comparaciones visuales con Visdiff.
 
-## Que incluye
+## Incluye
 
-- 50 paginas de contenido basico: `/page/page-01` a `/page/page-50`.
-- Sitemap XML con las 50 paginas: `/sitemap.xml`.
+- 50 paginas: `/page/page-01` a `/page/page-50`.
+- Sitemap: `/sitemap.xml`.
 - Panel de control: `/admin`.
 - Escenarios visuales por URL base:
   - `/scenario/missing-menu/page/page-01`
@@ -25,12 +25,10 @@ Sitio de prueba simple para validar capturas y comparaciones visuales con Visdif
 
 ## Uso con Visdiff
 
-1. Crea un proyecto con baseline URL apuntando al sitio publicado, por ejemplo:
-   `https://visdiff-lab.vercel.app`
-2. Importa paginas desde `/sitemap.xml` o agrega rutas `/page/page-01`, etc.
+1. Usa la URL publicada como baseline URL.
+2. Importa paginas desde `/sitemap.xml`.
 3. Captura baseline.
-4. Para target, usa `sourceBaseUrl` o cambia temporalmente la URL base a un escenario:
-   `https://visdiff-lab.vercel.app/scenario/mixed-regression`
+4. Para target, usa una URL base de escenario, por ejemplo `/scenario/mixed-regression`.
 5. Captura target y compara.
 
 ## Comandos
@@ -40,3 +38,5 @@ npm install
 npm run dev
 npm run build
 ```
+
+El build genera `dist/_worker.js` para Cloudflare Pages/Sites.

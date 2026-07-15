@@ -1,8 +1,8 @@
 .next/
 .open-next/
 node_modules/
-out/
 dist/
 .vercel/
+.wrangler/
 .env*
 npm-debug.log*
