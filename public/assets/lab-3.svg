@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Lab sample three">
+  <rect width="800" height="520" fill="#fff4f2"/>
+  <rect x="92" y="82" width="240" height="360" rx="18" fill="#ffe0db" stroke="#d45445" stroke-width="6"/>
+  <rect x="380" y="82" width="328" height="82" rx="14" fill="#d45445"/>
+  <rect x="380" y="204" width="328" height="82" rx="14" fill="#f2a29a"/>
+  <rect x="380" y="326" width="218" height="82" rx="14" fill="#ffce86"/>
+</svg>
