@@ -40,3 +40,9 @@ npm run build
 ```
 
 El build genera `dist/server/index.js` y `dist/_worker.js` para Sites.
+
+## Vercel
+
+El proyecto tambien incluye `api/index.js` y `vercel.json` para publicarlo como:
+
+`https://visdiff-lab.vercel.app`
