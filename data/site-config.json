@@ -1,10 +1,17 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-07-20T16:42:40.957Z",
   "global": {
     "visualStyle": "standard",
     "hideImages": false,
     "buttonSize": "normal",
     "textAlign": "left"
   },
-  "pages": {}
+  "pages": {
+    "home": {
+      "visualStyle": "high-contrast",
+      "hideImages": true,
+      "buttonSize": "large",
+      "textAlign": "center"
+    }
+  }
 }
