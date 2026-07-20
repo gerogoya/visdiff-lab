@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "visdiff-lab",
   "rewrites": [
     {
       "source": "/(.*)",
